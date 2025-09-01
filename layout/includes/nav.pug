@@ -26,7 +26,7 @@ nav#nav.show
             if theme.nav.group && theme.nav.group.length > 0
               +conditionalWrapper(theme.nav.group)
                 .back-home-button(tabindex="-1")
-                  +icon('fas fa-bars-progress', '', { class: 'back-home-button-icon' })
+                  +icon('fas fa-grip-vertical', '', { class: 'back-home-button-icon' })
                   include ./widgets/nav/group
             
             //- 网站名称
